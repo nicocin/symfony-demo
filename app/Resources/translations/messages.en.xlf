@@ -178,6 +178,10 @@
                 <source>label.title</source>
                 <target>Title</target>
             </trans-unit>
+            <trans-unit id="label.sub_title">
+                <source>label.sub_title</source>
+                <target>Sub-title</target>
+            </trans-unit>
             <trans-unit id="label.author">
                 <source>label.author</source>
                 <target>Author</target>

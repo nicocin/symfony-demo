@@ -60,6 +60,14 @@ class Post
     /**
      * @var string
      *
+     * @ORM\Column(type="string", nullable=true)
+     * @Assert\NotBlank
+     */
+    private $subTitle;
+
+    /**
+     * @var string
+     *
      * @ORM\Column(type="string")
      */
     private $slug;
@@ -143,6 +151,24 @@ class Post
     {
         $this->title = $title;
     }
+
+    /**
+     * @return string
+     */
+    public function getSubTitle()
+    {
+        return $this->subTitle;
+    }
+
+    /**
+     * @param string $subTitle
+     */
+    public function setSubTitle($subTitle)
+    {
+        $this->subTitle = $subTitle;
+    }
+
+
 
     public function getSlug()
     {
