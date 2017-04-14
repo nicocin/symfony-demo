@@ -47,7 +47,7 @@ class PostType extends AbstractType
                 'attr' => ['autofocus' => true],
                 'label' => 'label.title'
             ])
-            ->add('subTitle', null, [
+            ->add('sub_title', null, [
                 'attr' => ['autofocus' => true],
                 'label' => 'label.sub_title'
             ])
