@@ -6,6 +6,7 @@
     <h1>{{ 'title.post_new'|trans }}</h1>
 
     {{ form_start(form, {'attr': {'novalidate': 'novalidate'}}) }}
+        <p>General form errors:<br/>{{ form_errors(form) }}</p>
         {{ form_row(form.title) }}
         {{ form_row(form.sub_title) }}
         {{ form_row(form.summary) }}

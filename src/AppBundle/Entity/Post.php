@@ -61,7 +61,7 @@ class Post
      * @var string
      *
      * @ORM\Column(type="string", nullable=true)
-     * @Assert\NotBlank
+     * @Assert\NotBlank(message="subTitle or sub_title should not be blank")
      */
     private $subTitle;
 
